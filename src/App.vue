@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <h1>Pokedex</h1>
+  <div id="pokedex">
+    <h1 class="text--yellow">Pokedex</h1>
   </div>
 </template>
 
@@ -13,13 +13,13 @@ export default {
 }
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+<style Lang="scss" scoped>
+#pokedex {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
+ max-width: 1000px;
+ margin: 0 auto;
+ padding: 24px;
 }
 </style>
